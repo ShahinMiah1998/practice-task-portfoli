@@ -1,0 +1,137 @@
+/******************* Common Shared Styles ***************/
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Public Sans', sans-serif;
+  font-family: 'Sen', sans-serif;
+}
+
+.primary_color {
+  color: #FD6E0A;
+}
+
+.btn_primary {
+  border-radius: 5px;
+  background: #FD6E0A;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 15px 35px;
+}
+
+.btn_primary:hover {
+  transition: 0.5s;
+  background-color: #3d3b3b;
+}
+
+.section_title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+
+}
+
+/******************* Nav Related Styles ***************/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+
+.nav_title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav>ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+/******************* Header Related Styles ***************/
+.header {
+  background-color: #FFF8F3;
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.banner {
+  padding: 30px 100px 0px 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner_content {
+  max-width: 500px;
+}
+
+.banner img {
+  width: 584px;
+  height: 676px;
+  flex-shrink: 0;
+}
+
+.banner_gretting {
+  font-size: 45px;
+  columns: #474747;
+  margin: 0;
+}
+
+.banner_title {
+  color: #181818;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.banner_description {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.banner button {
+  margin-right: 20px;
+}
+
+/******************* Main Section Styles ***************/
+
+/******************* About Section Styles ***************/
+.about {
+  border-radius: 10px;
+  background: #FFf8F3;
+  padding: 130px;
+  margin: 130px 0;
+}
+
+.section_description {
+  color:#757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
