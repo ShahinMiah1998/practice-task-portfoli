@@ -184,7 +184,48 @@ main {
   font-size: 18px;
   color: #757575;
 }
+
 .skill h4 {
   font-size: 22px;
   margin: 10px 0;
+}
+
+/******************* Resume Section Styles ***************/
+.resume_section {
+  margin-top: 130px;
+}
+
+.resume_container {
+  display: flex;
+  gap: 50px;
+}
+
+.resume_title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume_part_title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.resume_part_subtitle {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.resume_description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+.resume_section hr{
+  margin: 30px 0;
 }
